@@ -1,0 +1,6 @@
+{
+  "connected": "Csatlakozva",
+  "disconnected": "Nincs csatlakozva",
+  "changeToSocket": "Váltás Socket-re",
+  "changeToHttp": "Váltás Http-re"
+}

@@ -1,0 +1,22 @@
+{
+  "createBulk": "Bulk create",
+  "create": "Create",
+  "delete": "Delete",
+  "detailView": "Detail View",
+  "bulkCreateModal": "Bulk create",
+  "bulkCreate": "Please set the number of generating new itineraries",
+  "number": "Number",
+  "generate": "Generate",
+  "edit": "Edit",
+  "signInFirst": "Please sign in first",
+  "createData": "Create New Itinerary",
+  "editData": "Edit Itinerary",
+  "selected": "Selected",
+  "axiosSuccess": "Axios was successfull!",
+  "axiosFailed": "Network error!",
+  "axiosError": "Server error!",
+  "muiErrorLoading": "Error loading data",
+  "areYou": "Are you sure you want to delete this Itinerary?",
+  "areYouM": "Are you sure you want to delete these Itineraries?",
+  "noData": "THERE ARE NO DATA"
+}

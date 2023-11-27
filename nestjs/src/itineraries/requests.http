@@ -1,0 +1,33 @@
+### Create a new itinerary
+POST http://localhost:5000/itineraries
+content-type: application/json
+
+{
+  "name": "route1",
+  "departure": "Wien",
+  "stops": "asdf",
+  "arrival": "Budapest"
+}
+
+### Get itinerary with Id show all data of user
+GET http://localhost:5000/itineraries/1
+
+
+### Get all itineraries
+GET http://localhost:5000/itineraries
+
+
+### Update itinerary with Id
+PATCH http://localhost:5000/itineraries/1
+content-type: application/json
+
+{
+  "name": "route",
+  "departure": "Wien",
+  "stops": "asdf",
+  "arrival": "Budapest"
+}
+
+
+### Delete itinerary with Id
+DELETE http://localhost:5000/itineraries/1

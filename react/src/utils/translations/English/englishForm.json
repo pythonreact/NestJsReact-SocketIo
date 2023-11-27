@@ -1,0 +1,14 @@
+{
+  "textPlease": "Please sign in",
+  "textName": "Enter your name",
+  "textEmail": "Enter your email",
+  "textPassword": "Enter your password",
+  "textSignIn": "Sign In",
+  "textSignOut": "Sign Out",
+  "textSignUp": "Sign Up",
+  "textSuccessFullSignIn": "You signed in succesfully!",
+  "textSuccessFullSignOut": "You signed out succesfully!",
+  "textSuccessFullSignUp": "You signed up succesfully!",
+  "textError": "Please add valid Email and Password!",
+  "textWelcome": "Welcome"
+}

@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "postinstall": "npm --prefix nestjs install && npm --prefix react install",
+    "start": "concurrently --kill-others-on-fail \"npm --prefix nestjs start\" \"npm --prefix react start\"",
+    "db:migration:generate": "cross-env-shell \"cd ./nestjs && $npm_execpath run typeorm migration:generate -- ./src/migrations/initial-schema -d ./ormconfig.ts -o\"",
+    "db:migration:run": "cross-env-shell \"cd ./nestjs && $npm_execpath run typeorm migration:run -- -d ./ormconfig.ts\""
+  },
+  "devDependencies": {
+    "concurrently": "7.1.0",
+    "cross-env": "^7.0.3"
+  }
+}

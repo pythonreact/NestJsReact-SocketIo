@@ -1,0 +1,10 @@
+{
+  "id": "Id",
+  "name": "Name",
+  "departure": "Departure",
+  "arrival": "Arrival",
+  "stops": "Stops",
+  "userId": "Created User Id",
+  "userEmail": "Created User Email",
+  "userAdmin": "Created User isAdmin"
+}

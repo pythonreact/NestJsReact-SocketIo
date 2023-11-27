@@ -1,0 +1,56 @@
+### Create a new user
+POST http://localhost:5000/auth/signup
+content-type: application/json
+
+{
+  "email": "email@email.com",
+  "password": "password"
+}
+
+
+### User sign in
+POST http://localhost:5000/auth/signin
+content-type: application/json
+
+{
+  "email": "email@email.com",
+  "password": "password"
+}
+
+
+### User sign out
+POST http://localhost:5000/auth/signout
+
+
+### Get all users
+Get http://localhost:5000/auth
+
+
+### Get the currently signed in user
+Get http://localhost:5000/auth/currentuser
+
+
+### Find a particular user with a given ID
+GET http://localhost:5000/auth/1
+
+
+### Delete a user with a given ID
+DELETE http://localhost:5000/auth/1
+
+
+### Update a user
+PATCH http://localhost:5000/auth/1
+Content-type: application/json 
+
+{
+  "email": "email@email.com",
+  "password": "password"
+}
+
+
+### Set cookie
+GET http://localhost:5000/auth/colors/white
+
+
+### Get cookie
+GET http://localhost:5000/auth/color

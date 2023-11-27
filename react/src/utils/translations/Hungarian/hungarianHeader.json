@@ -1,0 +1,10 @@
+{
+  "id": "Id",
+  "name": "Név",
+  "departure": "Indulás",
+  "arrival": "Érkezés",
+  "stops": "Megállók",
+  "userId": "Felhasználó Id",
+  "userEmail": "Felhasználó email",
+  "userAdmin": "Felhasználó admin-e"
+}

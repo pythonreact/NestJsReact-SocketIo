@@ -1,0 +1,14 @@
+{
+  "textPlease": "Kérlek jelentkezz be",
+  "textName": "Név",
+  "textEmail": "E-mail",
+  "textPassword": "Jelszó",
+  "textSignIn": "Bejelentkezés",
+  "textSignOut": "Kijelentkezés",
+  "textSignUp": "Új Felhasználó",
+  "textSuccessFullSignIn": "Sikeresen bejelentkeztél!",
+  "textSuccessFullSignOut": "Sikeresen kijelentkeztél!",
+  "textSuccessFullSignUp": "Sikeresen regisztráltál!",
+  "textError": "Kérlek érvényes Emailt és Jelszót adj meg!",
+  "textWelcome": "Üdvözöllek"
+}

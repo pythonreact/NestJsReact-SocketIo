@@ -1,0 +1,22 @@
+{
+  "createBulk": "Új útvonalak",
+  "create": "Új útvonal",
+  "delete": "Törlés",
+  "detailView": "Részletes lista",
+  "bulkCreateModal": "Új útvonalak létrehozása",
+  "bulkCreate": "Állítsd be a generálandó új útvonalak számát",
+  "number": "Darab",
+  "generate": "Létrehoz",
+  "edit": "Szerkesztés",
+  "signInFirst": "Először jelentkezzen be",
+  "createData": "Új Útvonal létrehozása",
+  "editData": "Útvonal szerkesztése",
+  "selected": "Kiválasztott",
+  "axiosSuccess": "Axios sikeres",
+  "axiosFailed": "Hálózati hiba!",
+  "axiosError": "Szerver hiba!",
+  "muiErrorLoading": "Hiba az adatok betöltésénél",
+  "areYou": "Szeretnéd törölni ezt az Útvonalat?",
+  "areYouM": "Szeretnéd törölni ezeket az Útvonalakat?",
+  "noData": "NINCSEN ADAT"
+}
