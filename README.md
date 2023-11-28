@@ -3,15 +3,21 @@
 Install: in the project root directory: `npm i`
 
 Run: in the project root directory: `npm start`
+
 Open [http://localhost:3000]to view it in the browser.
 
 Create a new user: `Sign Up`
+
 Create new data: `Bulk create`
 
 Sql database is in nestjs/db and migrations are in nestjs/src/migrations
+
 If you delete db and migrations, you can create new db.
 In rot directory you can run:
 `npm run db:migration:generate` and after `npm run db:migration:run`
+
+You can use Swagger:
+Open http:[http://localhost:5000/api]
 
 ## Used Technologies and useful links
 
@@ -28,3 +34,4 @@ In rot directory you can run:
 [SocketIo](https://socket.io) - Realtime application framework
 [TypeOrm](https://typeorm.io) - Typescript ORM
 [Jwt](https://jwt.io)- JSON Web Tokens
+[Swagger](https://swagger.io)- API Documentation and Design Tools

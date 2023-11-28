@@ -109,8 +109,7 @@ export class ItinerariesService {
     } while (deletedIdsLength > 0);
   }
 
-  async createBulkItinerary(body: any, email: string) {
-    const number = body.number;
+  async createBulkItinerary(number: any, email: string) {
     const [user] = await this.usersService.find(email);
     const features: Itinerary[] = [];
 

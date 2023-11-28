@@ -36,7 +36,6 @@ export const useAxios = () => {
       isError.current = false;
       toast.error(`${textAxiosFailed} ${err.response?.statusText}`);
       throw new Error(`${textAxiosFailed} ${err.response?.statusText}`);
-      // }
     }
   };
   return { fileAPI };

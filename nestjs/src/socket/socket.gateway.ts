@@ -90,8 +90,8 @@ export class SocketGateway implements OnGatewayConnection, OnGatewayDisconnect {
   @SubscribeMessage('bulkCreate')
   async handleBulkCreate(@MessageBody() emit: any): Promise<void> {
     const email = emit.email;
-    const data = emit.data;
-    const response = await this.itinerariesService.createBulkItinerary(data, email);
+    const number = emit.data.number;
+    const response = await this.itinerariesService.createBulkItinerary(number, email);
     this.server.emit('responseBulkCreate', response);
   }
 
